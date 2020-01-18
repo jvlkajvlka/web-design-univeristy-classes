@@ -1,0 +1,140 @@
+body{
+    background: #f5ffd8;
+}
+
+h1{
+    text-align: center;
+    color: #bcd39c;;
+	letter-spacing: 3px;
+	font-family:"Arial Narrow", cursive;
+}
+
+h2{
+   text-align: center;
+    color: #81a056;;
+    font-family:"Arial Narrow", cursive; 
+    /* text-decoration: underline; */
+    text-decoration-style: none;
+}
+
+p{
+    text-align: center;
+    color:#504746;
+    font-family:"Great Vibes";
+}
+
+input {
+  /* width: 100%; */
+  background-color:#fffc99;
+  border-radius:10px;
+}
+
+textarea {
+  /* width: 100%; */
+  background-color:#fffc99;
+  border-radius:10px;
+}
+select{
+    background-color:#fffc99;
+}
+
+a{
+    color: #81a056;
+    cursor: default;
+    text-decoration: none;
+}
+
+
+
+#menu{
+    text-align: center;
+    background-color: #b1f8f2;
+    color: #504746;
+    font-size: 18px;
+    border-radius:10px;
+    border-color:#b6244f ;
+    text-decoration: none;
+
+}
+
+.button{
+    background-color:#b1f8f2; /* Green */
+    color: cadetblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: cadetblue;
+    border: 10px;
+    border-radius: 3px;
+    
+
+    position:relative;
+    left:50%; 
+    transform: translateX(-50%); 
+    
+}
+
+#attachments{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#butt{
+     background-color:#b1f8f2; /* Green */
+    color: cadetblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: cadetblue;
+    border: 10px;
+    border-radius: 3px;
+    
+
+   
+}
+
+.formChat {  
+    width: 1000px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    text-align: center;
+    list-style-type: none; 
+}
+.form_group {
+    text-align: center;
+   }
+.chat {
+    margin-left: 23%;
+    margin-right: 23%;
+    width: 55%;
+    text-align: center;
+    list-style-type: none;
+}
+    
+.groupChat {
+    margin-bottom: 10px;
+}
+      
+.groupChat label {
+    font-weight: bold;
+}
+      
+.chatRoom {
+    line-height: 1.5;
+    width: 90%;
+    height: 400px;
+}
+      
+.formGroup #message {
+    width: 75%;
+    height: 17px;
+}

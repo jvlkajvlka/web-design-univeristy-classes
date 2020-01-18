@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	background-color: #c1acbf;
+}
+
+h1{
+	color: #c179b9;
+	letter-spacing: 3px;
+	font-family:"Great Vibes", cursive;
+}
+h2{
+	color: #a42cd6;
+	font-family:"Great Vibes";
+}
+p{
+
+	text-indent: 4em;
+}
+
+p:first-letter{
+	font-size:25px;
+	color:#502274;
+	background-color:palevioletred;
+}
+
+#początek{
+	margin: 0;
+	font-size: 30px;
+	background-color: #2f242c;
+	width: 100%;
+	white-space: nowrap;
+}
+
+#main{
+	max-width: 960px;
+	background-color: pink;
+	position:relative;
+	margin-left: 200px;
+}
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	/* background-color: olive; */
+}
+#menu_button{
+	width: 205px;
+	background-color: papayawhip;
+	/* border-color: aqua; */
+	border-collapse: separate;
+	border-style: solid;
+	text-align: center;
+	margin:0;	
+}
+
+#menu ul {
+	list-style-type: none;
+	padding: 0;
+}
+#menu ol{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	/* background-color: aqua; */
+}
+#menu ul li {
+	width: 200px;
+	background-color: papayawhip;
+	/* border-color: aqua; */
+	border-collapse: separate;
+	border-style: solid;
+	text-align: center;
+	margin:0;
+	
+}
+#menu ul li:hover{
+	cursor: default;
+	color: #2f242c;
+}
+a:hover{
+	color: #c1acbf;
+	cursor: default;
+}
+
+
+table{
+	background-color: #463c44; 
+	 border: 4px solid #519e8a; 
+}
+
+td{
+	/* background-color: pink; */
+}
+
+thead {
+	background-color: #476a6f;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+tbody {
+	font-style: italic;
+}
+
+.grey {
+  background-color: #1cbeb4;
+}
+.red {
+  background-color: #c5c9a4;
+}
+.blue {
+  background-color: #7eb09b;
+}
+/* znaczniki na liście */
+ol{
+	list-style-type: upper-roman;
+}
+ol ol{
+	list-style-type: lower-roman;
+}
+
+ol ol ol{
+	list-style-type: lower-greek;
+}

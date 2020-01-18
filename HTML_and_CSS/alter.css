@@ -1,0 +1,44 @@
+#main {
+	margin: 0 auto;
+}
+#menu_button{
+	/* visibility: hidden; */
+	width: 100%;
+	background-color: papayawhip;
+	/* border-color: #a42cd6; */
+	border-collapse: separate;
+	border-style: solid;
+	text-align: center;
+	margin:0;	
+	border: none;
+}
+
+#menu {
+	/* float: center; */
+	text-align: center;
+	/* background-color: grey; */
+}
+
+#menu {
+	position: relative;
+	text-align: center;
+	/* background-color: olive; */
+}
+
+#menu ul {
+	display: flex;
+}
+
+#menu ul li {
+	display: inline-block;
+	background-color: papayawhip;
+	border-color: #a42cd6;
+	border-collapse: separate;
+	border-style: solid;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+
+
